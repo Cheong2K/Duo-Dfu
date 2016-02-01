@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+180020e571c6631b74cfe85ea5a4649d CMakeFiles/kii-dfu_automoc
+fa1539ff7062a2a2a6aeda84aec916ad ui_mainwindow.h
