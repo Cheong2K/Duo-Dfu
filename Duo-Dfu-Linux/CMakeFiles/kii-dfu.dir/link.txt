@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/kii-dfu.dir/main.cpp.o CMakeFiles/kii-dfu.dir/mainwindow.cpp.o CMakeFiles/kii-dfu.dir/kii-dfu_automoc.cpp.o  -o kii-dfu -rdynamic /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.2.1 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.2.1 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.2.1 
