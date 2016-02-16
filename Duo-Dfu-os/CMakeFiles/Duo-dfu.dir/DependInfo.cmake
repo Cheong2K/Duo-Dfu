@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/Guohui/kii-dfu-master-build/kii-dfu_automoc.cpp" "/Users/Guohui/kii-dfu-master-build/CMakeFiles/kii-dfu.dir/kii-dfu_automoc.cpp.o"
-  "/Users/Guohui/kii-dfu-master/main.cpp" "/Users/Guohui/kii-dfu-master-build/CMakeFiles/kii-dfu.dir/main.cpp.o"
-  "/Users/Guohui/kii-dfu-master/mainwindow.cpp" "/Users/Guohui/kii-dfu-master-build/CMakeFiles/kii-dfu.dir/mainwindow.cpp.o"
+  "/Users/Guohui/kii-dfu-master-build/Duo-dfu_automoc.cpp" "/Users/Guohui/kii-dfu-master-build/CMakeFiles/Duo-dfu.dir/Duo-dfu_automoc.cpp.o"
+  "/Users/Guohui/kii-dfu-master/main.cpp" "/Users/Guohui/kii-dfu-master-build/CMakeFiles/Duo-dfu.dir/main.cpp.o"
+  "/Users/Guohui/kii-dfu-master/mainwindow.cpp" "/Users/Guohui/kii-dfu-master-build/CMakeFiles/Duo-dfu.dir/mainwindow.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

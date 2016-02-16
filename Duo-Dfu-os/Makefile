@@ -111,57 +111,57 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named kii-dfu
+# Target rules for targets named Duo-dfu
 
 # Build rule for target.
-kii-dfu: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 kii-dfu
-.PHONY : kii-dfu
+Duo-dfu: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Duo-dfu
+.PHONY : Duo-dfu
 
 # fast build rule for target.
-kii-dfu/fast:
-	$(MAKE) -f CMakeFiles/kii-dfu.dir/build.make CMakeFiles/kii-dfu.dir/build
-.PHONY : kii-dfu/fast
+Duo-dfu/fast:
+	$(MAKE) -f CMakeFiles/Duo-dfu.dir/build.make CMakeFiles/Duo-dfu.dir/build
+.PHONY : Duo-dfu/fast
 
 #=============================================================================
-# Target rules for targets named kii-dfu_automoc
+# Target rules for targets named Duo-dfu_automoc
 
 # Build rule for target.
-kii-dfu_automoc: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 kii-dfu_automoc
-.PHONY : kii-dfu_automoc
+Duo-dfu_automoc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Duo-dfu_automoc
+.PHONY : Duo-dfu_automoc
 
 # fast build rule for target.
-kii-dfu_automoc/fast:
-	$(MAKE) -f CMakeFiles/kii-dfu_automoc.dir/build.make CMakeFiles/kii-dfu_automoc.dir/build
-.PHONY : kii-dfu_automoc/fast
+Duo-dfu_automoc/fast:
+	$(MAKE) -f CMakeFiles/Duo-dfu_automoc.dir/build.make CMakeFiles/Duo-dfu_automoc.dir/build
+.PHONY : Duo-dfu_automoc/fast
 
-kii-dfu_automoc.o: kii-dfu_automoc.cpp.o
+Duo-dfu_automoc.o: Duo-dfu_automoc.cpp.o
 
-.PHONY : kii-dfu_automoc.o
+.PHONY : Duo-dfu_automoc.o
 
 # target to build an object file
-kii-dfu_automoc.cpp.o:
-	$(MAKE) -f CMakeFiles/kii-dfu.dir/build.make CMakeFiles/kii-dfu.dir/kii-dfu_automoc.cpp.o
-.PHONY : kii-dfu_automoc.cpp.o
+Duo-dfu_automoc.cpp.o:
+	$(MAKE) -f CMakeFiles/Duo-dfu.dir/build.make CMakeFiles/Duo-dfu.dir/Duo-dfu_automoc.cpp.o
+.PHONY : Duo-dfu_automoc.cpp.o
 
-kii-dfu_automoc.i: kii-dfu_automoc.cpp.i
+Duo-dfu_automoc.i: Duo-dfu_automoc.cpp.i
 
-.PHONY : kii-dfu_automoc.i
+.PHONY : Duo-dfu_automoc.i
 
 # target to preprocess a source file
-kii-dfu_automoc.cpp.i:
-	$(MAKE) -f CMakeFiles/kii-dfu.dir/build.make CMakeFiles/kii-dfu.dir/kii-dfu_automoc.cpp.i
-.PHONY : kii-dfu_automoc.cpp.i
+Duo-dfu_automoc.cpp.i:
+	$(MAKE) -f CMakeFiles/Duo-dfu.dir/build.make CMakeFiles/Duo-dfu.dir/Duo-dfu_automoc.cpp.i
+.PHONY : Duo-dfu_automoc.cpp.i
 
-kii-dfu_automoc.s: kii-dfu_automoc.cpp.s
+Duo-dfu_automoc.s: Duo-dfu_automoc.cpp.s
 
-.PHONY : kii-dfu_automoc.s
+.PHONY : Duo-dfu_automoc.s
 
 # target to generate assembly for a file
-kii-dfu_automoc.cpp.s:
-	$(MAKE) -f CMakeFiles/kii-dfu.dir/build.make CMakeFiles/kii-dfu.dir/kii-dfu_automoc.cpp.s
-.PHONY : kii-dfu_automoc.cpp.s
+Duo-dfu_automoc.cpp.s:
+	$(MAKE) -f CMakeFiles/Duo-dfu.dir/build.make CMakeFiles/Duo-dfu.dir/Duo-dfu_automoc.cpp.s
+.PHONY : Duo-dfu_automoc.cpp.s
 
 main.o: main.cpp.o
 
@@ -169,7 +169,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/kii-dfu.dir/build.make CMakeFiles/kii-dfu.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/Duo-dfu.dir/build.make CMakeFiles/Duo-dfu.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -178,7 +178,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/kii-dfu.dir/build.make CMakeFiles/kii-dfu.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/Duo-dfu.dir/build.make CMakeFiles/Duo-dfu.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -187,7 +187,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/kii-dfu.dir/build.make CMakeFiles/kii-dfu.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/Duo-dfu.dir/build.make CMakeFiles/Duo-dfu.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 mainwindow.o: mainwindow.cpp.o
@@ -196,7 +196,7 @@ mainwindow.o: mainwindow.cpp.o
 
 # target to build an object file
 mainwindow.cpp.o:
-	$(MAKE) -f CMakeFiles/kii-dfu.dir/build.make CMakeFiles/kii-dfu.dir/mainwindow.cpp.o
+	$(MAKE) -f CMakeFiles/Duo-dfu.dir/build.make CMakeFiles/Duo-dfu.dir/mainwindow.cpp.o
 .PHONY : mainwindow.cpp.o
 
 mainwindow.i: mainwindow.cpp.i
@@ -205,7 +205,7 @@ mainwindow.i: mainwindow.cpp.i
 
 # target to preprocess a source file
 mainwindow.cpp.i:
-	$(MAKE) -f CMakeFiles/kii-dfu.dir/build.make CMakeFiles/kii-dfu.dir/mainwindow.cpp.i
+	$(MAKE) -f CMakeFiles/Duo-dfu.dir/build.make CMakeFiles/Duo-dfu.dir/mainwindow.cpp.i
 .PHONY : mainwindow.cpp.i
 
 mainwindow.s: mainwindow.cpp.s
@@ -214,7 +214,7 @@ mainwindow.s: mainwindow.cpp.s
 
 # target to generate assembly for a file
 mainwindow.cpp.s:
-	$(MAKE) -f CMakeFiles/kii-dfu.dir/build.make CMakeFiles/kii-dfu.dir/mainwindow.cpp.s
+	$(MAKE) -f CMakeFiles/Duo-dfu.dir/build.make CMakeFiles/Duo-dfu.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
 # Help Target
@@ -223,13 +223,13 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... kii-dfu"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... kii-dfu_automoc"
-	@echo "... kii-dfu_automoc.o"
-	@echo "... kii-dfu_automoc.i"
-	@echo "... kii-dfu_automoc.s"
+	@echo "... Duo-dfu"
+	@echo "... Duo-dfu_automoc"
+	@echo "... Duo-dfu_automoc.o"
+	@echo "... Duo-dfu_automoc.i"
+	@echo "... Duo-dfu_automoc.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -145,7 +145,7 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "kii-dfu - Kiibohd DFU Flashing Utility", 0));
+        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "Duo-dfu - DUO DFU Flashing Utility", 0));
         fileBrowseLineEdit->setPlaceholderText(QApplication::translate("MainWindow", "Select FIle", 0));
         fileBrowseButton->setText(QApplication::translate("MainWindow", "Browse", 0));
         listDevicesButton->setText(QApplication::translate("MainWindow", "List Devices", 0));
