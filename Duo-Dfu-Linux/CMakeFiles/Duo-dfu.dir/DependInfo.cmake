@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/redbear/kii-dfu-master-build/kii-dfu_automoc.cpp" "/home/redbear/kii-dfu-master-build/CMakeFiles/kii-dfu.dir/kii-dfu_automoc.cpp.o"
-  "/home/redbear/kii-dfu-master/main.cpp" "/home/redbear/kii-dfu-master-build/CMakeFiles/kii-dfu.dir/main.cpp.o"
-  "/home/redbear/kii-dfu-master/mainwindow.cpp" "/home/redbear/kii-dfu-master-build/CMakeFiles/kii-dfu.dir/mainwindow.cpp.o"
+  "/home/redbear/kii-dfu-master-build/Duo-dfu_automoc.cpp" "/home/redbear/kii-dfu-master-build/CMakeFiles/Duo-dfu.dir/Duo-dfu_automoc.cpp.o"
+  "/home/redbear/kii-dfu-master/main.cpp" "/home/redbear/kii-dfu-master-build/CMakeFiles/Duo-dfu.dir/main.cpp.o"
+  "/home/redbear/kii-dfu-master/mainwindow.cpp" "/home/redbear/kii-dfu-master-build/CMakeFiles/Duo-dfu.dir/mainwindow.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

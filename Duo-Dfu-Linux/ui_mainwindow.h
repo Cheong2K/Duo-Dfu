@@ -39,7 +39,7 @@ public:
     QPushButton *listDevicesButton;
     QPushButton *flashButton;
     QHBoxLayout *horizontalLayout_3;
-    QRadioButton *userPartButoon;
+    QRadioButton *userPartButton;
     QRadioButton *systemPart1Button;
     QRadioButton *systemPart2Button;
     QButtonGroup *buttonGroup1;
@@ -107,14 +107,14 @@ public:
         horizontalLayout_3->setSpacing(10);
         horizontalLayout_3->setObjectName(QStringLiteral("horizontalLayout_3"));
         horizontalLayout_3->setSizeConstraint(QLayout::SetMaximumSize);
-        userPartButoon = new QRadioButton(centralWidget);
+        userPartButton = new QRadioButton(centralWidget);
         buttonGroup1 = new QButtonGroup(MainWindow);
         buttonGroup1->setObjectName(QStringLiteral("buttonGroup1"));
         buttonGroup1->setExclusive(false);
-        buttonGroup1->addButton(userPartButoon);
-        userPartButoon->setObjectName(QStringLiteral("userPartButoon"));
+        buttonGroup1->addButton(userPartButton);
+        userPartButton->setObjectName(QStringLiteral("userPartButton"));
 
-        horizontalLayout_3->addWidget(userPartButoon);
+        horizontalLayout_3->addWidget(userPartButton);
 
         systemPart1Button = new QRadioButton(centralWidget);
         buttonGroup1->addButton(systemPart1Button);
@@ -145,12 +145,12 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "kii-dfu - Kiibohd DFU Flashing Utility", 0));
+        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "Duo-dfu - DUO DFU Flashing Utility", 0));
         fileBrowseLineEdit->setPlaceholderText(QApplication::translate("MainWindow", "Select FIle", 0));
         fileBrowseButton->setText(QApplication::translate("MainWindow", "Browse", 0));
         listDevicesButton->setText(QApplication::translate("MainWindow", "List Devices", 0));
         flashButton->setText(QApplication::translate("MainWindow", "Flash", 0));
-        userPartButoon->setText(QApplication::translate("MainWindow", "UserPart", 0));
+        userPartButton->setText(QApplication::translate("MainWindow", "UserPart", 0));
         systemPart1Button->setText(QApplication::translate("MainWindow", "SystemPart1", 0));
         systemPart2Button->setText(QApplication::translate("MainWindow", "SystemPart2", 0));
     } // retranslateUi

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/redbear/kii-dfu-master-build/kii-dfu_automoc.cpp
+/home/redbear/kii-dfu-master-build/Duo-dfu_automoc.cpp
 moc_mainwindow.cpp
 /home/redbear/kii-dfu-master-build/moc_mainwindow.cpp
 
