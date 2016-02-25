@@ -1,2 +1,0 @@
-/Users/Guohui/kii-dfu-master-build/CMakeFiles/Duo-dfu.dir
-/Users/Guohui/kii-dfu-master-build/CMakeFiles/Duo-dfu_automoc.dir

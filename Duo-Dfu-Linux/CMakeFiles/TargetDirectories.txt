@@ -1,2 +1,0 @@
-/home/redbear/kii-dfu-master-build/CMakeFiles/Duo-dfu.dir
-/home/redbear/kii-dfu-master-build/CMakeFiles/Duo-dfu_automoc.dir
