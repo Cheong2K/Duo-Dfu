@@ -13,26 +13,24 @@ Building
 
 ### Linux
 
-Requires: qt4/5, cmake 2.8.9+
+Requires: qt5
 
-```bash
-mkdir build
-cd build
-make
-```
+```make a new Qt project```
 
+```replace the src file(main.pp/mainwindow.cpp/mainwindow.h/mainwindow.ui)```
+
+```build the project```
 
 ### Mac
 
-Requires: qt4/5, cmake 2.8.9+
-(Works with Macports)
+Requires: qt5
 
-```bash
-mkdir build
-cd build
-make
-```
 
+```make a new Qt project```
+
+```replace the src file(main.pp/mainwindow.cpp/mainwindow.h/mainwindow.ui)```
+
+```build the project```
 
 ### Windows
 
